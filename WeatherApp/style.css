@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+	box-sizing: border-box;
+}
+
+body
+{
+	background: #222;
+}
+
+.container
+{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: linear-gradient(135deg,#00feba, #5b548a);
+	padding: 25px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.top
+{
+	background-color: transparent;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+.top input
+{
+	padding: 15px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	font-size: 15px;
+	margin-right: 10px;
+
+}
+
+.top button
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	background: white;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.top button img
+{
+	height: 20px;
+
+}
+
+.emoji
+{
+	text-align: center;
+}
+
+.emoji img
+{
+	height: 150px;
+}
+
+.weather-status
+{
+	text-align: center;
+}
+
+.weather-value
+{
+	font-size: 50px;
+	font-weight: 600;
+	color: white;
+}
+
+.city-name
+{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+}
+
+.bottom
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 25px;
+}
+
+.bottom img
+{
+	height: 30px;
+	column-gap: 30px;
+	margin-right: 5px;
+}
+
+
+
+.bottom p
+{
+	margin-right: 80px;
+	font-size: 15px;
+	color: white;
+}
+
+.bottom .speed
+{
+	margin-right: 0px;
+	font-size: 15px;
+	color: white;
+}
+
+.status
+{
+	display: none;
+}
